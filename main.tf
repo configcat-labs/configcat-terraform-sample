@@ -7,16 +7,6 @@ terraform {
   }
 }
 
-variable "configcat_basic_auth_username" {
-  type      = string
-  sensitive = true
-}
-
-variable "configcat_basic_auth_password" {
-  type      = string
-  sensitive = true
-}
-
 provider "configcat" {
   basic_auth_username = var.configcat_basic_auth_username
   basic_auth_password = var.configcat_basic_auth_password
