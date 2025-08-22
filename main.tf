@@ -50,5 +50,5 @@ resource "configcat_setting" "is_awesome" {
 resource "configcat_setting_value" "is_awesome_value" {
   environment_id = configcat_environment.my_environment.id
   setting_id     = configcat_setting.is_awesome.id
-  value = "false"
+  value          = "false"
 }
