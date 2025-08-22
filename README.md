@@ -1,5 +1,3 @@
-Read.me template:
-
 # Automating ConfigCat Resources with Terraform
 
 **[Read the blog post here](https://configcat.com/blog/automating-configcat-resources-with-terraform)**
@@ -21,24 +19,27 @@ Instructions on how to build and run the application locally.
 
 2. Add your [ConfigCat API credentials](https://app.configcat.com/my-account/public-api-credentials) to the `variables.tf` file.
 
-3. Initialize terraform with the following command:
+3. Initialize Terraform with the following command:
 
 ```bash
 terraform init
 ```
 
-4. 
+4. Plan and apply the ConfigCat resources:
+
+```bash
+terraform plan
+
+terraform apply
+```
 
 ## Learn more
 
 Useful links to technical resources.
 
-Example:
+- [ConfigCat Feature Flags Provider documentation](https://registry.terraform.io/providers/configcat/configcat/latest/docs).
 
-- Next.js Documentation - learn about Next.js features.
-- Learn Next.js - an interactive Next.js tutorial.
-
-[**ConfigCat**](https://configcat.com) supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
+[**ConfigCat**](https://configcat.com) supports many other frameworks and languages. Check out the [full list of supported SDKs](https://configcat.com/docs/sdk-reference/overview/).
 
 You can also explore other code samples for various languages, frameworks, and topics in [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
 
@@ -46,7 +47,7 @@ Keep up with ConfigCat on [X](https://x.com/configcat), [Facebook](https://www.f
 
 ## Author
 
-[Your Name](https://github.com/your_name)
+[Chavez Harris](https://github.com/codedbychavez)
 
 ## Contributions
 
